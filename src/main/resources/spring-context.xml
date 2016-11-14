@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="police" class="com.github.dtkavin.learn.spring.beans.PoliceMan"/>
+
+    <bean id="driver" class="com.github.dtkavin.learn.spring.beans.Drive">
+        <constructor-arg ref="police"/>
+    </bean>
+
+
+    <bean id="prepareDrive" class="com.github.dtkavin.learn.spring.beans.PrepareDrive">
+        <constructor-arg value="#{T(System).out}"/>
+    </bean>
+
+    <aop:config>
+        <aop:aspect ref="prepareDrive">
+            <aop:pointcut id="arroundDrive" expression="execution(* *.drive())"/>
+            <aop:before pointcut-ref="arroundDrive" method="beforeDrive"/>
+            <aop:after pointcut-ref="arroundDrive" method="afterDrive"/>
+        </aop:aspect>
+    </aop:config>
+
+    <!--切面中为什么每个函数会调用两次-->
+</beans>
