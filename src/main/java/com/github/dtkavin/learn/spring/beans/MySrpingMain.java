@@ -1,6 +1,5 @@
-import com.github.dtkavin.learn.spring.beans.Drive;
-import com.github.dtkavin.learn.spring.beans.Person;
-import com.github.dtkavin.learn.spring.beans.PoliceMan;
+package com.github.dtkavin.learn.spring.beans;
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -8,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class MySrpingMain {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("dev/spring-context.xml");
 
         //通过class 获得
 //        Person bean = context.getBean(PoliceMan.class);
@@ -17,7 +16,7 @@ public class MySrpingMain {
 //        Person bean = (Person) context.getBean("police");
 //        bean.drive();
 
-        Drive driver=context.getBean(Drive.class);
+        Drive driver = context.getBean(Drive.class);
         driver.drive();
 
 
