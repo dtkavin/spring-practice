@@ -13,6 +13,20 @@
         <junit-version>4.11</junit-version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>mvnrepo</id>
+            <name>mvnrepo</name>
+            <url>http://central.maven.org/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
         <dependency>
@@ -58,19 +72,23 @@
         <profile>
             <id>dev</id>
             <properties>
-                <profiles.active>dev</profiles.active>
+                <active.profiles>dev</active.profiles>
             </properties>
         </profile>
         <profile>
             <id>prod</id>
-            <profiles.active>prod</profiles.active>
+            <properties>
+                <active.profiles>prod</active.profiles>
+            </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
         </profile>
         <profile>
             <id>qa</id>
-            <profiles.active>qa</profiles.active>
+            <properties>
+                <active.profiles>qa</active.profiles>
+            </properties>
         </profile>
     </profiles>
 
@@ -83,10 +101,11 @@
                     <exclude>test/*</exclude>
                     <exclude>prod/*</exclude>
                     <exclude>dev/*</exclude>
+                    <exclude>qa/*</exclude>
                 </excludes>
             </resource>
             <resource>
-                <directory>src/main/resources/${profiles.active}</directory>
+                <directory>src/main/resources/${active.profiles}</directory>
             </resource>
         </resources>
 
