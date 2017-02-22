@@ -65,6 +65,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>spring=mvc</finalName>
+        <finalName>spring-mvc</finalName>
     </build>
 </project>

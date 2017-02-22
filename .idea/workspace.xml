@@ -1,39 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb5ea8f0-fb61-4981-9d8a-cd7903035945" name="Default" comment="reactor">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-base/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/dtkavin/learn/spring/beans/Drive.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/dtkavin/learn/spring/beans/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/dtkavin/learn/spring/beans/PoliceMan.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/dtkavin/learn/spring/beans/PrepareDrive.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring-context.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/learn/spring/beans/Drive.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/learn/spring/beans/Drive.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/learn/spring/beans/MySrpingMain.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/learn/spring/beans/MySrpingMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/learn/spring/beans/Person.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/learn/spring/beans/Person.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/learn/spring/beans/PoliceMan.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/learn/spring/beans/PoliceMan.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/learn/spring/beans/PrepareDrive.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/learn/spring/beans/PrepareDrive.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/aop/AopMain.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/aop/AopMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/aop/Recorder.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/aop/Recorder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/aop/Worker.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/aop/Worker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/bean/Wallet.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/bean/Wallet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/bean/WalletMain.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/bean/WalletMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/di/CDDisk.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/di/CDDisk.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/di/CDPlayer.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/di/CDPlayer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/di/CDPlayerConfig.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/di/CDPlayerConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/di/JackCDDisk.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/di/JackCDDisk.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/di/LadyGaGaCDDisk.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/di/LadyGaGaCDDisk.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/dtkavin/spring/di/PlayerMain.java" afterPath="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/di/PlayerMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/dev/spring-context.xml" afterPath="$PROJECT_DIR$/spring-base/src/main/resources/dev/spring-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/prod/spring-context.xml" afterPath="$PROJECT_DIR$/spring-base/src/main/resources/prod/spring-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/github/dtkavin/spring/di/CDPlayerTest.java" afterPath="$PROJECT_DIR$/spring-base/src/test/java/di/CDPlayerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-practice.iml" afterPath="$PROJECT_DIR$/spring-practice.iml" />
+    <list default="true" id="cb5ea8f0-fb61-4981-9d8a-cd7903035945" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc/pom.xml" afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" />
     </list>
     <ignored path="spring-practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33916083">
-              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+            <state vertical-scroll-proportion="-11.185185">
+              <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -72,8 +41,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-mvc/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.333333">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state vertical-scroll-proportion="-15.185185">
+              <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -99,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6666667">
+            <state vertical-scroll-proportion="0.12587413">
               <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding />
             </state>
@@ -169,8 +138,8 @@
         <option value="$PROJECT_DIR$/spring-base/src/main/java/dtkavin/spring/aop/AopMain.java" />
         <option value="$PROJECT_DIR$/spring-base/src/main/java/com/github/dtkavin/spring/aop/AopMain.java" />
         <option value="$PROJECT_DIR$/spring-base/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
       </list>
     </option>
   </component>
@@ -205,14 +174,8 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
-      </PATH>
-      <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="spring-practice" />
+          <option name="myItemId" value="spring-mvc Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -222,7 +185,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="spring-practice" />
+          <option name="myItemId" value="spring-mvc Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -234,24 +197,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="spring-base" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="spring-base" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -265,6 +210,9 @@
         </PATH_ELEMENT>
       </PATH>
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="25" />
@@ -338,6 +286,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="spring-base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -373,7 +417,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/dev" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AopMain">
+  <component name="RunManager" selected="Tomcat Server.spring-mvc">
     <configuration default="false" name="WalletMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1097,11 +1141,11 @@
     <configuration default="false" name="spring-mvc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.4" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <file path="$PROJECT_DIR$/spring-mvc">
+        <artifact name="spring-mvc:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
-        </file>
+        </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-practice" />
@@ -1160,12 +1204,16 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring-mvc:war exploded" />
+        </option>
+      </method>
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.spring-mvc" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WalletMain" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AopMain" />
+      <item index="0" class="java.lang.String" itemvalue="Application.WalletMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AopMain" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.spring-mvc" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -1225,7 +1273,7 @@
       <workItem from="1487471191498" duration="6752000" />
       <workItem from="1487685569901" duration="5196000" />
       <workItem from="1487774433285" duration="3371000" />
-      <workItem from="1487777836831" duration="894000" />
+      <workItem from="1487777836831" duration="1138000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1479204442947</created>
@@ -1239,7 +1287,13 @@
       <option name="project" value="LOCAL" />
       <updated>1487774706454</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor">
+      <created>1487778744473</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487778744473</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1254,11 +1308,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40588000" />
+    <option name="totallyTimeSpent" value="40832000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1271,7 +1325,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1313,7 +1367,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="aop config" />
-    <option name="LAST_COMMIT_MESSAGE" value="aop config" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1440,14 +1495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-base/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.666667">
@@ -1456,18 +1503,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state vertical-scroll-proportion="-11.185185">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-mvc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33916083">
-          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        <state vertical-scroll-proportion="-15.185185">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12587413">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
