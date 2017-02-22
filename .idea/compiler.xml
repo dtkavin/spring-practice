@@ -22,10 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="spring-practice" />
+        <module name="spring-base" />
+        <module name="spring-mvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-base" target="1.5" />
+      <module name="spring-mvc" target="1.5" />
       <module name="spring-practice" target="1.5" />
     </bytecodeTargetLevel>
   </component>
