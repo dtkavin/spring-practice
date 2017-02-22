@@ -1,4 +1,4 @@
-package com.gihub.dtkavin.spring.di;
+package com.github.dtkavin.spring.di;
 
 /**
  * Created by john on 17-2-12.

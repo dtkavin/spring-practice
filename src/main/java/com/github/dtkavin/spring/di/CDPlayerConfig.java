@@ -1,4 +1,4 @@
-package com.gihub.dtkavin.spring.di;
+package com.github.dtkavin.spring.di;
 
 import com.github.dtkavin.learn.spring.beans.Drive;
 import org.springframework.context.annotation.ComponentScan;

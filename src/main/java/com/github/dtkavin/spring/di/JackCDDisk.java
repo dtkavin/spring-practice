@@ -1,4 +1,4 @@
-package com.gihub.dtkavin.spring.di;
+package com.github.dtkavin.spring.di;
 
 import org.springframework.stereotype.Component;
 
